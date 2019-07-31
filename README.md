@@ -11,7 +11,7 @@ An AI based tweet generator which can generate collection of tweets automaticall
 - If other libraries are missing, install them using `pip install <library>`
 ### Data
 Users must provide the raw twitter data downloaded from Twitter and unzip it to a json file. This json file will be fed to both the trainer and the generator.
-The downloaded Twitter data is in `.gz` format (e.g. `Tweet_2019-07-15_08-17-17.gz`). To unzip the data to a json file, use command `gunzip -c <filename.gz> > <filename.json>` (e.g. `gunzip -c Tweet_2019-07-15_08-17-17.gz > tweets.json`).
+The downloaded Twitter data is in `.gz` format (e.g. `Tweet_2019-07-15_08-17-17.gz`). To unzip the data to a json file, use command `gunzip -c <filename>.gz > <filename>.json` (e.g. `gunzip -c Tweet_2019-07-15_08-17-17.gz > tweets.json`).
 ### Python Version
 Python version must be at least Python 3.6.
 
